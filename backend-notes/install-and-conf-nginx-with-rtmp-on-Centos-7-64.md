@@ -18,6 +18,7 @@ conf nginx with rtmp module
     #
     # Configure
         cd nginx-1.8.0
+	yum install gcc gcc-c++ ncurses-devel perl 
         ./configure --add-module=../nginx-rtmp-module-1.1.7/
         make
     #
